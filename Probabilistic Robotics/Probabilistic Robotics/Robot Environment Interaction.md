@@ -40,3 +40,9 @@ Environment Interaction:
 - Even if the robot does not perform any action itself, state usually changes. Thus, we will assume that the robot always executes a control action
 - Even though **odometers** are sensors, we will treat odometry as control data, since they measure the effect of a control action.
 ---
+Probabilistic Generative Laws
+
+If state $x$ is complete
+- **State transition probability**: $$p(x_t \mid x_{0:t-1},z_{1:t-1},u_{1:t})=p(x_t \mid x_{t-1},u_t)$$
+- **Measurement probability**: $$p(z_t \mid x_{0:t},z_{1:t-1},u_{1:t})=p(z_t \mid x_t)$$
+These equalities are examples of  [[Conditional independence]].

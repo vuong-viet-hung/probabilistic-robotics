@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f954f1654d0a007",
+        "id": "7bff61d49bb63084",
         "type": "tabs",
         "children": [
           {
-            "id": "4e46257755674746",
+            "id": "6c79b15a18db2c47",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,10 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "4e46257755674746",
+  "active": "6c79b15a18db2c47",
   "lastOpenFiles": [
     "Basic Concepts in Probability.md",
     "Robot Environment Interaction.md",
+    "Conditional independence.md",
     "Basics"
   ]
 }
