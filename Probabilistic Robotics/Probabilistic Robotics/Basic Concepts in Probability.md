@@ -45,7 +45,10 @@ Bayes rule:
 Bayes rule allows us to inferring a quantity $x$ from sensor data $y$.
 
 ---
-Conditional independence: $$p(x \mid y,z)=\frac{p(y \mid x,z)\,p(x \mid z)}{p(y \mid z)}$$$$p(x \mid z)=p(x \mid z,y)$$$$p(y \mid z)=p(y \mid z,x)$$
+[[Conditional independence]]:
+$$p(x \mid y,z)=\frac{p(y \mid x,z)\,p(x \mid z)}{p(y \mid z)}$$
+
+If $y$ carries no information about $x$ if $z$ is known ($X$ is conditionally independent of $Z$ given $Y$): $$p(x,y \mid z)=p(x \mid z)\,p(y \mid z)$$$$p(x \mid z)=p(x \mid z,y)$$$$p(y \mid z)=p(y \mid z,x)$$
 Conditional independence does not imply absolute independence: $$p(x,y \mid z)=p(x \mid z)\,p(y \mid z) \nRightarrow p(x,y)=p(x)\,p(y)$$Absolute independence does not imply conditional independence: $$p(x,y)=p(x)\,p(y) \nRightarrow p(x,y \mid z)=p(x \mid z)\,p(y \mid z)$$
 
 ---
